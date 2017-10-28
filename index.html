@@ -1,19 +1,17 @@
 <head>
 
-    <!-- Third Party Libraries -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
-        crossorigin="anonymous"></script>
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
 
-    <!-- My personal script and styling -->
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
 
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
@@ -22,29 +20,35 @@
 
 <body>
 
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-inverse bg-inverse">
         <div class='container-fluid'>
             <div class='navbar-header'>
 
                 <a class='navbar-brand' href='#'>
-                    <img src='https://s3.amazonaws.com/files.enjin.com/373740/site_logo/avatar.png'>TBs Gaming</a>
+                    <img id='tbslogo' src='https://s3.amazonaws.com/files.enjin.com/373740/site_logo/avatar.png' class='img-responsive'>TBs Gaming</a>
 
 
             </div>
             <ul class='nav navbarnav'>
                 <li>
 
-                    <a href="#" class='fa-about'>About</a>
+                    <a href="#" id='aboutButton'>About</a>
 
                 </li>
                 <li>
 
-                    <a href='#'>Games</a>
+                    <a href='#' id='gamesButton'>Games</a>
 
                 </li>
                 <li>
 
-                    <a href='#'>Contact</a>
+                    <a href='#' id='downloadButton'>Download</a>
+
+
+                </li>
+                <li>
+
+                    <a href='#' id='contactButton'>Contact</a>
 
                 </li>
             </ul>
@@ -52,6 +56,31 @@
     </nav>
 
 
+    <div id='about' class='container'>
+        <h1>About Us</h1>
+        <hr>
+        <p>Ipsum something something</p>
+    </div>
+
+
+    <div id='games' class='container'>
+        <h1>Games we play</h1>
+        <hr>
+        <p>Ipsum something something</p>
+    </div>
+
+
+    <div id='download' class='container'>
+        <h1>TBs Gaming Launcher</h1>
+        <hr>
+        <p>Here is the link to the latest version of the TBs Gaming Launcher</p>
+
+    </div>
+
+
+    <div id='contact' class='container'>
+        <h1>Contact us</h1>
+    </div>
 
 
 

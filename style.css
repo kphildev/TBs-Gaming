@@ -1,0 +1,14 @@
+#tbslogo {
+    height: 40px;
+    width: 40px;
+    margin: 50px;
+}
+
+.navbar {
+    height: 50px;
+    background: rgb(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0));
+}
+
+li {
+    margin: 50px;
+}
