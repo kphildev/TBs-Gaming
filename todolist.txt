@@ -1,0 +1,13 @@
+TODO list
+
+1. Fix game page. logos misaligned and not sized correctly. responsive?
+
+2. Begin designing color pallette for page.
+
+3. Possibly add depth to animated gif. Looks strange having no width when rotating.
+
+4. Add more interactivity to make page intuitive.
+
+5. Look into adding cool features instead of plain bootstrap jquery framework.
+
+6. Make interactive gallery (possibly just automatic smooth slideshow from the assets/images/community folder)
