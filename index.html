@@ -1,4 +1,9 @@
 <head>
+    <!-- Font Awesome Icons -->
+    <script src="https://use.fontawesome.com/3b4147899b.js"></script>
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
@@ -19,68 +24,127 @@
 </head>
 
 <body>
-
-    <nav class="navbar navbar-inverse bg-inverse">
+    <!-- Begin navigation construction -->
+    <nav class="
+    navbar navbar-inverse">
         <div class='container-fluid'>
             <div class='navbar-header'>
 
-                <a class='navbar-brand' href='#'>
-                    <img id='tbslogo' src='https://s3.amazonaws.com/files.enjin.com/373740/site_logo/avatar.png' class='img-responsive'>TBs Gaming</a>
+                <a class='navbar-brand' href='#' id='landing-button'>
+                    <img id='tbslogo' src='./assets/images/Small Logo/avatar1.gif'>TBs Gaming</a>
 
 
             </div>
             <ul class='nav navbarnav'>
                 <li>
 
-                    <a href="#" id='aboutButton'>About</a>
+                    <a href="#" id='about-button' class='active'>
+                        <i class="fa fa-users" aria-hidden="true"></i>About</a>
 
                 </li>
                 <li>
 
-                    <a href='#' id='gamesButton'>Games</a>
+                    <a href='#' id='games-button'>
+                        <i class="fa fa-gamepad" aria-hidden="true"></i>Games</a>
 
                 </li>
                 <li>
 
-                    <a href='#' id='downloadButton'>Download</a>
+                    <a href='#' id='download-button'>
+                        <i class="fa fa-download" aria-hidden="true"></i>Download</a>
 
 
                 </li>
                 <li>
 
-                    <a href='#' id='contactButton'>Contact</a>
+                    <a href='#' id='contact-button'>
+                        <i class="fa fa-id-card-o" aria-hidden="true"></i>Contact</a>
 
                 </li>
             </ul>
         </div>
     </nav>
+    <!-- End Navigation section -->
 
 
-    <div id='about' class='container'>
-        <h1>About Us</h1>
-        <hr>
-        <p>Ipsum something something</p>
+    <!-- Begin content section (This is where you will edit the text to match what you want) -->
+
+    <div class='sections'>
+
+        <!-- This is the initial landing page -->
+        <div id='landingpage' class='container'>
+            <h1>Welcome to TBs Gaming</h1>
+            <hr>
+            <p>A gaming community based on fairness</p>
+        </div>
+
+        <!-- This is the about us portion -->
+        <div id='about' class='container'>
+            <h1>About Us</h1>
+            <hr>
+            <p>TBs gaming is a community centered around fair gameplay for its players. We come from a background where admin
+                abuse was rampant in our online gaming communities. We felt that spoiled the fun and a bunch of us got together
+                to create TBs gaming. We were tired of the abuse, working hard only to have things taken away by immature
+                admins twisted by power.</p>
+        </div>
+
+        <!-- This is the list of games that you play and their corresponding logos -->
+        <div id='games' class='container'>
+            <h1>Games we play</h1>
+            <hr>
+            <div class='container-fluid logos'>
+                <div class='row text-center'>
+                    <div class='col-md-4 text-center'>
+                        <img src="./assets/images/Small Logo/ark.png" id='ark' class='img-responsive gamelogos'>
+                    </div>
+
+                    <div class='col-md-4 text-center'>
+                        <img src="./assets/images/Small Logo/arma2.png" id='arma2' class='img-responsive gamelogos'>
+                    </div>
+
+                    <div class='col-md-4 text-center'>
+                        <img src="./assets/images/Small Logo/arma3.png" id='arma3' class='img-responsive gamelogos'>
+                    </div>
+                </div>
+                <div class='row'>
+
+                    <div class='col-md-4 text-center'>
+                        <img src="./assets/images/Small Logo/dayz.png" id='dayz' class='img-responsive gamelogos'>
+                    </div>
+
+                    <div class='col-md-4 text-center'>
+                        <img src="./assets/images/Small Logo/h1z1.png" id='h1z1' class='img-responsive gamelogos'>
+                    </div>
+
+                    <div class='col-md-4 text-center'>
+                        <img src="./assets/images/Small Logo/rust.png" id='rust' class='img-responsive gamelogos'>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- This is the download landing page for the launcher we created, will add link to automatically download the zip -->
+        <div id='download' class='container'>
+            <h1>TBs Gaming Launcher</h1>
+            <hr>
+            <p>Here is the link to the latest version of the TBs Gaming Launcher</p>
+            <a href='placeholder'>
+                <i class="fa fa-download" aria-hidden="true"></i>
+            </a>
+        </div>
+
+        <!-- This is the contact us section, by default I have it emailing you when they click the mail icon -->
+        <div id='contact' class='container'>
+            <h1>Contact us</h1>
+            <hr>
+            <p>Click here to contact us</p>
+            <a href='mailto:thug@tbsgaming.com'>
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+            </a>
+        </div>
+
     </div>
-
-
-    <div id='games' class='container'>
-        <h1>Games we play</h1>
-        <hr>
-        <p>Ipsum something something</p>
-    </div>
-
-
-    <div id='download' class='container'>
-        <h1>TBs Gaming Launcher</h1>
-        <hr>
-        <p>Here is the link to the latest version of the TBs Gaming Launcher</p>
-    </div>
-
-
-    <div id='contact' class='container'>
-        <h1>Contact us</h1>
-    </div>
-
 
 
 

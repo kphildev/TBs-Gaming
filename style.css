@@ -1,14 +1,58 @@
 #tbslogo {
-    height: 40px;
-    width: 40px;
+    height: 70px;
+    width: 70px;
     margin: 50px;
 }
+.col-md-4 {
+    width: 500px;
+}
 
+i {
+    margin: 15px;
+}
 .navbar {
-    height: 50px;
-    background: rgb(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0));
+    height: 68px;
 }
 
 li {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.sections {
     margin: 50px;
+    text-align: center;
+}
+
+.logos.img {
+    height: 250px;
+    
+}
+.gamelogos {
+    padding: 15px;
+    margin: 20px;
+}
+
+#ark {
+    height: 250px;
+}
+
+#arma2 {
+    height: 250px;
+}
+
+#arma3 {
+    height: 250px;
+}
+
+#dayz {
+    height: 250px;
+}
+
+#h1z1 {
+    height: 250px;
+}
+
+#rust {
+    height: 250px;
 }
