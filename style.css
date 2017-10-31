@@ -1,8 +1,26 @@
+html {
+    background-image: url('./assets/images/Banner Background/background1.png');
+    color: #EAE7D3;
+    text-shadow: 1px 1px black;
+}
+body {
+    background: rgba(255, 0, 0, 0);
+    color: #EAE7D3;
+}
 #tbslogo {
     height: 70px;
     width: 70px;
     margin: 50px;
 }
+a {
+    color: white;
+}
+
+hr {
+    color: white;
+    background-color: rgb(163, 163, 163);
+}
+
 .col-md-4 {
     width: 500px;
 }
@@ -10,49 +28,56 @@
 i {
     margin: 15px;
 }
+.navbar-brand {
+    font-size: 3em;
+}
 .navbar {
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-color: black;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-image: url('./assets/images/Banner Background/TextBG1.jpg');
+    background-color: #979797;
     height: 68px;
+    font-size: 1em;
 }
 
 li {
+    font-size: 20px;
     margin-left: 20px;
     margin-right: 20px;
+
 }
 
 .sections {
     margin: 50px;
     text-align: center;
+    font-size: 2em;
 }
 
-.logos.img {
-    height: 250px;
-    
-}
-.gamelogos {
-    padding: 15px;
-    margin: 20px;
+.fa-envelope {
+    font-size: 2em;
 }
 
-#ark {
-    height: 250px;
+.img-fluid {
+    padding: 10px;
+    height: auto;
+    max-width: 100%;
+    margin: 15px;
 }
 
-#arma2 {
-    height: 250px;
+.well {
+    background-color: rgba(0, 0, 0, 0.74);
+    border-radius: 5px;
 }
 
-#arma3 {
-    height: 250px;
+p {
+    padding: 50px;
 }
-
-#dayz {
-    height: 250px;
-}
-
-#h1z1 {
-    height: 250px;
-}
-
-#rust {
-    height: 250px;
+#ts3icon {
+    height: 100px;
+    width: 100px;
+    padding: 50px;
+    margin: 50px;
 }

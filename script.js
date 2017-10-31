@@ -1,6 +1,10 @@
 $('document').ready(function () {
 
-    //animate extend function
+    //create audio object for sound feedback on link clicks
+    let menu = document.getElementById('menubeep');
+    menu.volume = '.1';
+    
+    //animate extend function (can now use .animateCss('animation') without adding class)
     $.fn.extend({
         animateCss: function (animationName) {
             var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
@@ -16,13 +20,13 @@ $('document').ready(function () {
 
     //By default hide everything but landing page
     $('#landingpage').animateCss('fadeIn').show();
-
     $('#about').hide();
     $('#games').hide();
     $('#download').hide();
     $('#contact').hide();
 
     $('#landing-button').on('click', function () {
+        $('#menubeep').play();
         $('#landingpage').show().animateCss('fadeIn');
 
         $('#about').hide();
@@ -32,6 +36,7 @@ $('document').ready(function () {
     })
 
     $('#about-button').on('click', function () {
+        menu.play();
         $('#about').show().animateCss('fadeIn');
 
         $('#landingpage').hide();
@@ -41,6 +46,7 @@ $('document').ready(function () {
     });
 
     $('#games-button').on('click', function () {
+        menu.play();
         $('#games').show().animateCss('fadeIn');
 
         $('#landingpage').hide();
@@ -50,6 +56,7 @@ $('document').ready(function () {
     });
 
     $('#download-button').on('click', function () {
+        menu.play();
         $('#download').show().animateCss('fadeIn');
 
         $('#landingpage').hide();
@@ -59,6 +66,7 @@ $('document').ready(function () {
     });
 
     $('#contact-button').on('click', function () {
+        menu.play();
         $('#contact').show().animateCss('fadeIn');
 
         $('#landingpage').hide();
@@ -67,4 +75,4 @@ $('document').ready(function () {
         $('#download').hide();
     });
 
-})
+});

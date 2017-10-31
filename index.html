@@ -1,4 +1,7 @@
 <head>
+    <!-- Custom Font Faces -->
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+
     <!-- Font Awesome Icons -->
     <script src="https://use.fontawesome.com/3b4147899b.js"></script>
 
@@ -24,6 +27,12 @@
 </head>
 
 <body>
+    <audio autoplay='false' id='menubeep'>
+        <source src='./assets/sounds/beep-09.mp3' type='audio/mpeg'>
+    </audio>
+    <audio autoplay>
+        <source src="./assets/sounds/bg1.mp3" type="audio/mpeg">
+    </audio>
     <!-- Begin navigation construction -->
     <nav class="
     navbar navbar-inverse">
@@ -72,14 +81,19 @@
     <div class='sections'>
 
         <!-- This is the initial landing page -->
-        <div id='landingpage' class='container'>
+        <div id='landingpage' class='container well'>
             <h1>Welcome to TBs Gaming</h1>
             <hr>
-            <p>A gaming community based on fairness</p>
+
+            <p>Hello and welcome to TBsGaming website UNDER CONSTRUCTION . We are a gaming clan for players all over the world.
+                We started off with diffrent Dayz mod servers. We currently have several Dayz epoch, overpoch, overpoch origins
+                and origins server. We also have a ARK: Survival Evolved server. We have alot of addons on all of our servers
+                thanks to our talented scripter. Enjoy your stay on TBsGaming. Our Teamspeak is tbsgaming.teamspeak3.com
+            </p>
         </div>
 
         <!-- This is the about us portion -->
-        <div id='about' class='container'>
+        <div id='about' class='container well'>
             <h1>About Us</h1>
             <hr>
             <p>TBs gaming is a community centered around fair gameplay for its players. We come from a background where admin
@@ -89,35 +103,35 @@
         </div>
 
         <!-- This is the list of games that you play and their corresponding logos -->
-        <div id='games' class='container'>
+        <div id='games' class='container well'>
             <h1>Games we play</h1>
             <hr>
-            <div class='container-fluid logos'>
+            <div class='container-fluid'>
                 <div class='row text-center'>
                     <div class='col-md-4 text-center'>
-                        <img src="./assets/images/Small Logo/ark.png" id='ark' class='img-responsive gamelogos'>
+                        <img src="./assets/images/Small Logo/ark.png" id='ark' class='img-fluid gamelogos'>
                     </div>
 
                     <div class='col-md-4 text-center'>
-                        <img src="./assets/images/Small Logo/arma2.png" id='arma2' class='img-responsive gamelogos'>
+                        <img src="./assets/images/Small Logo/arma2.png" id='arma2' class='img-fluid gamelogos'>
                     </div>
 
                     <div class='col-md-4 text-center'>
-                        <img src="./assets/images/Small Logo/arma3.png" id='arma3' class='img-responsive gamelogos'>
+                        <img src="./assets/images/Small Logo/arma3.png" id='arma3' class='img-fluid gamelogos'>
                     </div>
                 </div>
-                <div class='row'>
+                <div class='row text-center'>
 
                     <div class='col-md-4 text-center'>
-                        <img src="./assets/images/Small Logo/dayz.png" id='dayz' class='img-responsive gamelogos'>
+                        <img src="./assets/images/Small Logo/dayz.png" id='dayz' class='img-fluid gamelogos'>
                     </div>
 
                     <div class='col-md-4 text-center'>
-                        <img src="./assets/images/Small Logo/h1z1.png" id='h1z1' class='img-responsive gamelogos'>
+                        <img src="./assets/images/Small Logo/h1z1.png" id='h1z1' class='img-fluid gamelogos'>
                     </div>
 
                     <div class='col-md-4 text-center'>
-                        <img src="./assets/images/Small Logo/rust.png" id='rust' class='img-responsive gamelogos'>
+                        <img src="./assets/images/Small Logo/rust.png" id='rust' class='img-fluid gamelogos'>
                     </div>
                 </div>
 
@@ -125,23 +139,31 @@
         </div>
 
         <!-- This is the download landing page for the launcher we created, will add link to automatically download the zip -->
-        <div id='download' class='container'>
+        <div id='download' class='container well'>
             <h1>TBs Gaming Launcher</h1>
             <hr>
+
             <p>Here is the link to the latest version of the TBs Gaming Launcher</p>
             <a href='placeholder'>
                 <i class="fa fa-download" aria-hidden="true"></i>
             </a>
+
         </div>
 
         <!-- This is the contact us section, by default I have it emailing you when they click the mail icon -->
-        <div id='contact' class='container'>
+        <div id='contact' class='container well'>
             <h1>Contact us</h1>
             <hr>
+
             <p>Click here to contact us</p>
             <a href='mailto:thug@tbsgaming.com'>
                 <i class="fa fa-envelope" aria-hidden="true"></i>
             </a>
+
+            <a href='tbsgaming.teamspeak3.com'>
+                <img src="./assets/images/Small Logo/Dakirby309-Simply-Styled-TeamSpeak.ico" id='ts3icon'>
+            </a>
+
         </div>
 
     </div>
