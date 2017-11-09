@@ -1,5 +1,5 @@
 $('document').ready(function () {
-    
+
     //animate extend function (can now use .animateCss('animation') without adding class)
     $.fn.extend({
         animateCss: function (animationName) {
@@ -61,7 +61,7 @@ $('document').ready(function () {
     });
 
     $('#contact-button').on('click', function () {
- 
+
         $('#contact').show().animateCss('fadeIn');
 
         $('#landingpage').hide();
