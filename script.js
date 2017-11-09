@@ -22,7 +22,6 @@ $('document').ready(function () {
     $('#contact').hide();
 
     $('#landing-button').on('click', function () {
-        $('#menubeep').play();
         $('#landingpage').show().animateCss('fadeIn');
 
         $('#about').hide();

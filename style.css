@@ -6,6 +6,10 @@ html {
 body {
     background: rgba(255, 0, 0, 0);
     color: #EAE7D3;
+    font-family: 'Special Elite', cursive;
+}
+#dayz {
+    height: 
 }
 #tbslogo {
     height: 70px;
@@ -32,6 +36,7 @@ i {
     font-size: 3em;
 }
 .navbar {
+    font-family: 'Black Ops One', cursive;
     border-bottom-style: solid;
     border-bottom-width: 3px;
     border-color: black;
@@ -76,8 +81,6 @@ p {
     padding: 50px;
 }
 #ts3icon {
-    height: 100px;
-    width: 100px;
     padding: 50px;
     margin: 50px;
 }
